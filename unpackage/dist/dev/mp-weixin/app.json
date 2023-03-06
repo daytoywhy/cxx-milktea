@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/menus/menus",
+    "pages/take-order/take-order",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#919293",
+    "backgroundColor": "#fff",
+    "selectedColor": "#97AF13",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabBar/index.png",
+        "selectedIconPath": "static/images/tabBar/index_selected.png"
+      },
+      {
+        "pagePath": "pages/menus/menus",
+        "text": "菜单",
+        "iconPath": "static/images/tabBar/drink.png",
+        "selectedIconPath": "static/images/tabBar/drink_selected.png"
+      },
+      {
+        "pagePath": "pages/take-order/take-order",
+        "text": "订单",
+        "iconPath": "static/images/tabBar/take.png",
+        "selectedIconPath": "static/images/tabBar/take_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/images/tabBar/mine.png",
+        "selectedIconPath": "static/images/tabBar/mine_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
