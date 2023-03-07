@@ -38,7 +38,7 @@
             "path" : "pages/mine/mine",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "森林乐园",
                 "enablePullDownRefresh": false
             }
             

@@ -20,3 +20,94 @@ page{
 	width: 100%;
 	height: 100%;
 }
+
+.d-flex{
+	display: flex;
+}
+.flex-column{
+	flex-direction: column;
+}
+.align-items-center{
+	align-items: center;
+}
+
+.justify-content-center{
+	justify-content:center;
+}
+
+.justify-content-start{
+	justify-content: flex-start;
+}
+
+.justify-content-end{
+	justify-content: flex-end;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.position-relative{
+	position:relative;
+}
+
+.bg-white{
+	background-color: #fff;
+}
+
+.flex-fill {
+	-ms-flex: 1 1 auto !important;
+	flex: 1 1 auto !important;
+}
+
+.flex-shrink-0 {
+	-ms-flex-negative: 0 !important;
+	flex-shrink: 0 !important;
+}
+
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+.font-weight-bold {
+	font-weight: 700 !important;
+}
+.font-size-sm {
+	font-size: 24rpx;
+}
+
+.font-size-medium {
+	font-size: 26rpx;
+}
+
+.font-size-base {
+	font-size: 28rpx;
+}
+
+.font-size-lg {
+	font-size: 32rpx;
+}
+
+.font-size-extra-lg {
+	font-size: 40rpx;
+}
+
+.text-color-assist {
+	color: $text-color-assist;
+}
+
+.line-height-100 {
+	line-height: 100%;
+}
+
+.text-color-white {
+	color: #ffffff;
+}
+
+.text-color-primary {
+	color: $color-primary;
+}
+
+.bg-warning {
+	background-color: $color-warning;
+}

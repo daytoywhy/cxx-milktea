@@ -3,7 +3,7 @@
 		<view class="logo">
 			<image src="@/static/images/logo1.png"></image> 
 			<view class="tips">
-				我爱你，你爱我,蜜雪冰城甜蜜蜜
+				人死了，就像水消失在水中
 				<br>
 				今朝若是同淋雪，此生也算共白头
 			</view>
@@ -51,7 +51,7 @@
 					<view class="grid">
 						<image src="/static/images/mine/nxbz.png"></image>
 						<view>
-							蜜雪宝藏
+							森林宝藏
 						</view>
 					</view>
 				</view>
