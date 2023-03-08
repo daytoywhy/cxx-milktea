@@ -1,6 +1,9 @@
 <template>
-	<view>
-		菜单
+	<view class="container" v-if="!loading">
+		
+	</view>
+	<view class="loading" v-else>
+		<image src="/static/images/loading.gif"></image>
 	</view>
 </template>
 
@@ -8,12 +11,12 @@
 	export default {
 		data() {
 			return {
-				
+				loading:true,
 			};
 		}
 	}
 </script>
 
 <style lang="scss">
-
+@import '@/pages/menus/menu.scss';
 </style>

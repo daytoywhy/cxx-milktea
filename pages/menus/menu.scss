@@ -1,0 +1,16 @@
+.loading{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	image{
+		width: 260rpx;
+		height: 260rpx;
+		position: relative;
+		margin-top:-200rpx;
+		/* #ifdef H5 */
+		margin-top:0;
+		/* #endif */
+	}
+}

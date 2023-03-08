@@ -9604,7 +9604,8 @@ var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 34));
 _vue.default.use(_vuex.default);
 var store = new _vuex.default.Store({
   state: {
-    member: {}
+    member: {},
+    order: {}
   },
   getters: {
     isLogin: function isLogin(state) {
@@ -9614,6 +9615,9 @@ var store = new _vuex.default.Store({
   mutations: {
     SET_MEMBER: function SET_MEMBER(state, member) {
       state.member = member;
+    },
+    SET_ORDER: function SET_ORDER(state, order) {
+      state.order = order;
     }
   }
 });

@@ -20,7 +20,7 @@
             "path" : "pages/menus/menus",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "菜单",
+                "navigationBarTitleText": "森林物语",
                 "enablePullDownRefresh": false
             }
             
@@ -29,7 +29,7 @@
             "path" : "pages/take-order/take-order",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "订单",
                 "enablePullDownRefresh": false
             }
             

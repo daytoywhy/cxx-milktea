@@ -1,1 +1,1 @@
-<view>订单</view>
+<view class="container"><block wx:if="{{!$root.g0}}"><view class="without-order"><image class="drinks-img" src="/static/images/loading.gif"></image><view class="text font-size-base text-color-assist"><view>您还没有点单</view><view>快去犒劳一下自己吧~</view></view><button class="drink-btn" type="primary" size="default">去点餐</button><view class="font-size-sm text-color-primary">查看历史订单</view></view></block></view>

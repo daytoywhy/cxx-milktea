@@ -357,6 +357,10 @@ button,
 input {
   box-sizing: border-box;
 }
+.container {
+  height: 100%;
+  width: 100%;
+}
 page {
   background-color: #F1F8FA;
   height: 100%;

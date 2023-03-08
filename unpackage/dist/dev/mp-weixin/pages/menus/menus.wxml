@@ -1,1 +1,1 @@
-<view>菜单</view>
+<block wx:if="{{!loading}}"><view class="container"></view></block><block wx:else><view class="loading"><image src="/static/images/loading.gif"></image></view></block>
