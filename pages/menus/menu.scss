@@ -14,3 +14,125 @@
 		/* #endif */
 	}
 }
+/* #ifdef H5 */
+page {
+	min-height: 100%;
+}
+/* #endif */
+
+.container {
+	overflow: hidden;
+	position: relative;
+}
+
+
+.main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav{
+	width: 100%;
+	height: 212rpx;
+	display: flex;
+	flex-shrink: 0;
+	flex-direction: column;
+	
+	.header{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 20rpx;
+		background-color: #fff;
+		height: 140rpx;
+		.left{
+			flex:1;
+			display: flex;
+			flex-direction: column;
+			
+			.store-name{
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				font-size: $font-size-lg;
+				margin-bottom: 10rpx;
+				
+				.iconfont {
+					margin-left: 10rpx;
+					line-height: 100%;
+				}
+			}
+			.store-location {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				color: $text-color-assist;
+				font-size: $font-size-sm;
+			
+				.iconfont {
+					vertical-align: middle;
+					display: table-cell;
+					color: $color-primary;
+					line-height: 100%;
+				}
+			}
+		}
+		.right{
+			background-color: $bg-color-grey;
+			border-radius: 38rpx;
+			display: flex;
+			align-items: center;
+			font-size: $font-size-sm;
+			padding: 0 38rpx;
+			color: $text-color-assist;
+			.dinein, .takeout{
+				display: flex;
+				align-items: center;
+				position: relative;
+				&.active{
+					padding: 14rpx 38rpx;
+					color: #ffffff;
+					background-color: $color-primary;
+					border-radius: 38rpx;
+				}
+			}
+			.takeout{
+				flex: 1;
+				padding: 14rpx 0;
+				margin-left:20rpx;
+				height: 100%;
+			}
+			.dinein.active{
+				margin-left:-38rpx;
+			}
+			.takeout.active{
+				margin-right:-38rpx;
+			}
+		}
+	}
+	.coupon{
+		flex:1;
+		padding:0 20rpx;
+		background-color: $bg-color-primary;
+		font-size: $font-size-base;
+		color: $color-primary;
+		display: flex;
+		align-items: center;
+		overflow: hidden;
+		.title{
+			flex: 1;
+			margin-left:10rpx;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		.iconfont {
+			line-height: 100%;
+		}
+		
+	}
+}

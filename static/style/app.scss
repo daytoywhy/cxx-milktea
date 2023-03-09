@@ -116,3 +116,9 @@ page{
 .bg-warning {
 	background-color: $color-warning;
 }
+
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

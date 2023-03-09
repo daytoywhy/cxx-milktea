@@ -3,10 +3,12 @@ import App from './App'
 // #ifndef VUE3
 import Vue from 'vue'
 import store from './store/index.js'
+import api from './api/index.js'
 Vue.config.productionTip = false
 App.mpType = 'app'
 
 Vue.prototype.$store = store
+Vue.prototype.$api = api
 
 try {
   function isPromise(obj) {
